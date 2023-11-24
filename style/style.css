@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(245, 245, 241);
+    background-color: rgba(92, 196, 189, 0.401);
 }
 
 .flex{
@@ -23,18 +23,37 @@ header{
 header h1{
     text-transform: uppercase;
     padding: 3rem;
+    color: rgb(76, 130, 231);
 }
 
 header p{
-    padding-bottom: 3rem;
     text-align: center;
     line-height: 1.8rem;
 }
 
+#team{
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
 article{
     width: calc(100% / 3);
+    margin-top: 3rem;
+    background-color: beige;
+    border: 1px solid saddlebrown;
 }
 
 section img{
     width: 100%;
+    padding: 1rem;
+}
+
+section h3,
+section p{
+   text-align: center;
+   color: rgb(129, 97, 148);
+}
+
+section p{
+    padding: 1rem 0;
 }

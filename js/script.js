@@ -14,7 +14,7 @@ Consigli del giorno:
 Ragioniamo come sempre a step. Prima la logica in italiano e poi traduciamo in codice.*/
 
 
-//? creazione array con dentro oggetti
+// creazione array con dentro oggetti
 
 const teamMembers = [
 
