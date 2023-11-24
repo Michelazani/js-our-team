@@ -1,0 +1,40 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 245, 241);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    width: 400px;
+    margin: 0 auto;
+}
+
+header h1{
+    text-transform: uppercase;
+    padding: 3rem;
+}
+
+header p{
+    padding-bottom: 3rem;
+    text-align: center;
+    line-height: 1.8rem;
+}
+
+article{
+    width: calc(100% / 3);
+}
+
+section img{
+    width: 100%;
+}
