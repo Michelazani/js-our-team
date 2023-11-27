@@ -21,41 +21,40 @@ const teamMembers = [
     {
     name: "Wayne Barnett",
     role: "Founder & CEO",
-    profilePicture: "img/wayne-barnett-founder-ceo.jpg"
+    profilePicture: "wayne-barnett-founder-ceo.jpg"
     },
 
     {
     name: "Angela Caroll",
     role: "Chief Editor",
-    profilePicture: "img/angela-caroll-chief-editor.jpg"
+    profilePicture: "angela-caroll-chief-editor.jpg"
     },
 
     {
     name: "Walter Gordon",
     role: "Office Manager",
-    profilePicture: "img/walter-gordon-office-manager.jpg"
+    profilePicture: "walter-gordon-office-manager.jpg"
     },
 
     {
     name: "Angela Lopez",
     role: "Social Media Manager",
-    profilePicture: "img/angela-lopez-social-media-manager.jpg"
+    profilePicture: "angela-lopez-social-media-manager.jpg"
     },
 
     {
     name: "Scott Estrada",
     role: "Developer",
-    profilePicture: "img/scott-estrada-developer.jpg"
+    profilePicture: "scott-estrada-developer.jpg"
     },
 
     {
     name: "Barbara Ramos",
     role: "Graphic Designer",
-    profilePicture: "img/barbara-ramos-graphic-designer.jpg"
+    profilePicture: "barbara-ramos-graphic-designer.jpg"
     }
 ];
 
-console.log(teamMembers)
 
 // creo padre
 const containerElement= document.getElementById('team');
@@ -63,7 +62,7 @@ const containerElement= document.getElementById('team');
 // ciclo per ogni oggetto (membro) dell'array
 for (let i = 0; i < teamMembers.length; i++) {
     const member = teamMembers[i];
-    console.log(member)
+    console.log(member.name, member.role, member.profilePicture);
 
     // creo article
     const createArticle = document.createElement ('article');
@@ -71,7 +70,7 @@ for (let i = 0; i < teamMembers.length; i++) {
     // vado a inserire direttamente nell'html
     createArticle.innerHTML = 
     `
-        <img src="${member.profilePicture}" alt="profile pictures member">
+        <img src=" ./img/${member.profilePicture}" alt="profile pictures member">
             <h3>
                 ${member.name}
             </h3>
